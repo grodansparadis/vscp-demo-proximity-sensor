@@ -411,7 +411,7 @@ boolean sendMQTT(vscpEventEx &ex) {
   memset(mqtt_data, 0, sizeof(mqtt_data));
 
   for (int i = 0; i < ex.sizeData; i++) {
-    sprintf(buf, "0x%02X", ex.data[i]);
+    sprintf(buf, "%d", ex.data[i]);
     strcat(mqtt_data, buf);
     if (i != (ex.sizeData - 1)) {
       strcat(mqtt_data, ",");
