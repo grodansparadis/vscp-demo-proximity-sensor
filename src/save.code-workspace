@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "vscp-demo-proximity-esp8266-rtos",
+			"path": "../../vscp-demo-proximity-esp8266-rtos/vscp-demo-proximity-esp8266-rtos"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.tcc": "cpp"
+		}
+	}
+}
