@@ -33,7 +33,7 @@
 #define DEBUG // Enable debug output on serial channel
 
 // Select one of VSCP or MQTT
-#define VSCP // Enable VSCP events
+//#define VSCP // Enable VSCP events
 #define MQTT // Enable VSCP events over MQTT
 
 #define ONEWIRE // Comment out to remove 1-wire support
